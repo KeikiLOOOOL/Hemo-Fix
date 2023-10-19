@@ -75,7 +75,6 @@ static function ApplySecondaryDamage( KFPawn Victim, int DamageTaken, optional C
 {		
 		KFM.ApplyDamageOverTime(DamageTaken, InstigatedBy, class'Custom_KFDT_Bleeding_Hemogoblin');
 		KFM.AdjustMovementSpeed(0.8);
-	}
 }
 
 DefaultProperties
